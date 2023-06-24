@@ -17,8 +17,33 @@
       body {
         font-family: 'Courier Prime', serif;
         font-size: 42px;
-        margin-right: 50%;
         color: #dedede;
+      }
+      @media (min-width: 320px) {
+        /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      }
+      @media (min-width: 480px) {
+        /* smartphones, Android phones, landscape iPhone */
+      }
+      @media (min-width: 600px) {
+        body {
+          margin-right: 3rem;
+          height: 2rem;
+        }
+        /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      }
+      @media (min-width: 801px) {
+        body {
+          margin-right: 50%;
+          height: 30rem;
+        }
+        /* tablet, landscape iPad, lo-res laptops ands desktops */
+      }
+      @media (min-width: 1025px) {
+        /* big landscape tablets, laptops, and desktops */
+      }
+      @media (min-width: 1281px) {
+        /* hi-res laptops and desktops */
       }
       p {
         font-size: 24px;
